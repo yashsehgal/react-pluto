@@ -64,4 +64,8 @@ export default function ScreenView() {
 - Notion
 - Creative Mind
 
+- You can check out more detailed resources
+  - Figma Design File: https://www.figma.com/file/kNV6TrZSPWq2dllmwFtvDl/React-Pluto-Component-Design-System?node-id=0%3A1
+  - Notion Developer Documentation: https://yashsehgal.notion.site/React-Pluto-Component-Design-System-UI-Kit-c50c6c5c6b46450bbee64a069dd8834a
+
 **We would love if you will raise issues and new feature requests to make this library more better. Thanks for checking out, hope you liked it, if yes then please leave a star :star:**
