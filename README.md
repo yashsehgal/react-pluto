@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# React Pluto Component Design System + UI Kit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![react-pluto-github-banner](assets/GithubBannerDark.svg)
 
-## Available Scripts
+A package of small but beautiful React components from the planet Pluto. To install the latest version, run this installation command.
 
-In the project directory, you can run:
+```cmd
+npm install react-pluto --save-dev
+```
 
-### `npm start`
+### How to import and start using Pluto Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- For an instance, consider a component view named as `ScreenView`, and we need to use a button component.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```javascript
+import { Button } from 'react-pluto';
 
-### `npm test`
+export default function ScreenView() {
+    return (
+        <div className="screen-view">
+            <Button>
+                Pluto Button
+            </Button>
+        </div>
+    )
+}
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Passing custom properties is extremely easy in these components. You can easily pass style, className, id, methods, actions as props.
 
-### `npm run build`
+```javascript
+import { Button } from 'react-pluto';
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+export default function ScreenView() {
+    return (
+        <Button style={{ background: 'black', color: 'white', width: '100%' }}>
+            Pluto Button
+        </Button>
+    )
+}
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```javascript
+import React, { useState } from 'react';
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+export default function ScreenView() {
+    const [currentValueRef, setCurrentValue] = useState(0);
+    return (
+        <React.Fragment>
+            <h2>Current Value is: {currentValueRef}</h2>
+            <Button onClick={() => setCurrentValue(++currentValueRef)}> 
+                Pluto Button
+            </Button>
+        </React.Fragment>
+    )
+}
+```
 
-### `npm run eject`
+### Tools and Technologies used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React
+- CSS/SCSS
+- Figma
+- Notion
+- Creative Mind
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**We would love if you will raise issues and new feature requests to make this library more better. Thanks for checking out, hope you liked it, if yes then please leave a star :star:**
