@@ -1,3 +1,8 @@
 :root {
   --p-neutral-white: rgb(255, 255, 255);
+  --p-neutral-black: rgb(40, 40, 40);
+  --p-primary-purple-1: rgb(112, 0, 255);
+  --p-primary-purple-2: rgb(148, 64, 255);
+  --p-primary-purple-3: rgb(183, 128, 255);
+  --p-primary-purple-4: rgb(219, 191, 255);
 }/*# sourceMappingURL=index.css.map */
