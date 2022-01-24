@@ -5,4 +5,14 @@
   --p-primary-purple-2: rgb(148, 64, 255);
   --p-primary-purple-3: rgb(183, 128, 255);
   --p-primary-purple-4: rgb(219, 191, 255);
+  --p-secondary-dark-1: rgb(37, 35, 52);
+  --o-secondary-dark-2: rgb(91, 90, 103);
+  --p-secondary-dark-3: rgb(146, 145, 153);
+  --p-secondary-dark-4: rgb(200, 200, 204);
+  --p-action-alert: rgb(231, 64, 64);
+  --p-action-alert-bg: rgb(249, 207, 207);
+  --p-action-warning: rgb(231, 204, 64);
+  --p-action-warning-bg: rgb(249, 242, 207);
+  --p-action-success: rgb(64, 231, 101);
+  --p-action-success-bg: rgb(207, 249, 217);
 }/*# sourceMappingURL=index.css.map */
