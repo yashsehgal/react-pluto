@@ -2,6 +2,7 @@
   "name": "react-pluto",
   "version": "0.1.0",
   "private": true,
+  "repository":"git://github.com/yashsehgal/react-pluto.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -22,6 +23,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "browserslist": {
     "production": [
