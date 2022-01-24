@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+// normalizing fonts according the default theme/design system
+*, *::before, *::after {
+    color: var(--p-secondary-dark-1);
+    font-family: 'Manrope', sans-serif;
+}
+
+.heading {
+    font-weight: 700;
+}
+
+.body {
+    font-weight: 800;
+}
+
+.text {
+    font-weight: 500;
+}
+
+$typographySize: (
+    // heading values
+    "heading-4xl": 64px,
+    "heading-3xl": 56px,
+    "heading-2xl": 40px,
+    "heading-xl": 24px,
+    "heading": 20px,
+    // body text values
+    "body-lg": 20px,
+    "body-md": 16px,
+    "body-sm": 12px,
+    // text values
+    "text-lg": 16px,
+    "text-md": 14px,
+    "text-sm": 12px
+);
+
+:root {
+    @each $typographySizeClassName, $typographySizeValue in $typographySize {
+        --p-typo-#{$typographySizeClassName}: #{$typographySizeValue};
+    }
+}
+
+@each $typographySizeClassName, $typographySizeValue in $typographySize {
+    .p-typo-#{$typographySizeClassName} {
+        font-size: $typographySizeValue;
+    }
+}

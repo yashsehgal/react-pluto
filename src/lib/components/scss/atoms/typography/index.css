@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+*, *::before, *::after {
+  color: var(--p-secondary-dark-1);
+  font-family: "Manrope", sans-serif;
+}
+
+.heading {
+  font-weight: 700;
+}
+
+.body {
+  font-weight: 800;
+}
+
+.text {
+  font-weight: 500;
+}
+
+:root {
+  --p-typo-heading-4xl: 64px;
+  --p-typo-heading-3xl: 56px;
+  --p-typo-heading-2xl: 40px;
+  --p-typo-heading-xl: 24px;
+  --p-typo-heading: 20px;
+  --p-typo-body-lg: 20px;
+  --p-typo-body-md: 16px;
+  --p-typo-body-sm: 12px;
+  --p-typo-text-lg: 16px;
+  --p-typo-text-md: 14px;
+  --p-typo-text-sm: 12px;
+}
+
+.p-typo-heading-4xl {
+  font-size: 64px;
+}
+
+.p-typo-heading-3xl {
+  font-size: 56px;
+}
+
+.p-typo-heading-2xl {
+  font-size: 40px;
+}
+
+.p-typo-heading-xl {
+  font-size: 24px;
+}
+
+.p-typo-heading {
+  font-size: 20px;
+}
+
+.p-typo-body-lg {
+  font-size: 20px;
+}
+
+.p-typo-body-md {
+  font-size: 16px;
+}
+
+.p-typo-body-sm {
+  font-size: 12px;
+}
+
+.p-typo-text-lg {
+  font-size: 16px;
+}
+
+.p-typo-text-md {
+  font-size: 14px;
+}
+
+.p-typo-text-sm {
+  font-size: 12px;
+}/*# sourceMappingURL=index.css.map */
