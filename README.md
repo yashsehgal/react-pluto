@@ -4,6 +4,8 @@
 
 A package of small but beautiful React components from the planet Pluto. To install the latest version, run this installation command.
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/yashsehgal/react-pluto)
+
 ```cmd
 npm install react-pluto --save-dev
 ```
