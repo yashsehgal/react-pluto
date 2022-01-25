@@ -37,7 +37,7 @@ export default function Heading({
                 style={headingComponentProperties.style}
                 {...componentProps}
             >
-                {headingComponentProperties.children ? headingComponentProperties.children : ''}
+                {headingComponentProperties.children ? headingComponentProperties.children : <React.Fragment></React.Fragment>}
             </p>
         </React.Fragment>
     )

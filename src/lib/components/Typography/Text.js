@@ -47,7 +47,7 @@ export default function Text({
                 id={textComponentProperties.id}
                 {...componentProps}
             >
-                {textComponentProperties.children ? textComponentProperties.children : ''}
+                {textComponentProperties.children ? textComponentProperties.children : <React.Fragment></React.Fragment>}
             </p>
         </React.Fragment>
     )

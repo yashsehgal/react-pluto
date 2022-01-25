@@ -5,6 +5,8 @@ import Heading from './components/Typography/Heading';
 
 import Box from './components/Box';
 
+import Elevation from './components/Elevation';
+
 // css styles and variables
 import './components/scss/index.css';
 
@@ -13,5 +15,6 @@ export {
     Button,
     Text,
     Heading,
-    Box
+    Box,
+    Elevation
 }
