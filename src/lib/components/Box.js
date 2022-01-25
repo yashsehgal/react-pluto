@@ -1,11 +1,14 @@
 import React from "react";
 
-export default function Box({ children, className, style, id, onClick }) {
+export default function Box({ children, className, style, id, onClick, onMouseEnter, onMouseLeave }) {
     const boxComponentProperties = {
         "style": style,
-        "className": (className) ? className : '',
+        "className": (className) ? `p-box-container ${className}` : 'p-box-container',
         "id": (id) ? id : '',
-        "onClick": onClick
+        "onClick": onClick,
+        "children": children,
+        "onMouseEnter": onMouseEnter,
+        "onMouseLeave": onMouseLeave
     };
 
     return (
@@ -15,8 +18,10 @@ export default function Box({ children, className, style, id, onClick }) {
                 className={boxComponentProperties.className}
                 id={boxComponentProperties.id}
                 onClick={boxComponentProperties.onClick}
+                onMouseEnter={boxComponentProperties.onMouseEnter}
+                onMouseLeave={boxComponentProperties.onMouseLeave}
             >
-                {children ? children : ''}
+                {boxComponentProperties.children ? boxComponentProperties.children : <React.Fragment></React.Fragment>}
             </div>
         </React.Fragment>
     )
