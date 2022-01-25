@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Heading, Text, Box, Elevation } from './lib';
+import { Heading, Text, Box, Elevation, Button } from './lib';
 import './lib/components/scss/index.css';
 
 export default function App() {
@@ -25,6 +25,20 @@ export default function App() {
                     </Text>
                 </Box>
             </Elevation>
+            <Box style={{ marginTop: '2.4rem' }}>
+                <Button size="sm">
+                    Button
+                </Button>
+                <Button>
+                    Button
+                </Button>
+                <Button size="lg">
+                    Button
+                </Button>
+                <Button size="fw">
+                    Button
+                </Button>
+            </Box>
         </div>
     )
 }
