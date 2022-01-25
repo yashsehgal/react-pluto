@@ -1,0 +1,29 @@
+
+$elevationAmount: (
+    "none": 0px 0px 0px,
+    "sm": 0px 1px 4px,
+    "md": 0px 2px 4px,
+    "lg": 0px 4px 16px,
+    "xl": 0px 6px 24px,
+    "2xl": 0px 8px 30px,
+    "3xl": 0px 10px 36px,
+    "4xl": 0px 12px 42px
+);
+
+@each $elevationAmountClassName, $elevationAmountValue in $elevationAmount {
+    .p-elevation-#{$elevationAmountClassName} {
+        box-shadow: $elevationAmountValue rgba(0, 0, 0, 0.2);
+    }
+}
+
+.p-elevation-container {
+    width: fit-content;
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
+}
+
+.p-box-container {
+    margin: 0px;
+    padding: 0px;
+}
