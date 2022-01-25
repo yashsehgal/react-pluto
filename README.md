@@ -6,6 +6,8 @@ A package of small but beautiful React components from the planet Pluto. To inst
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/yashsehgal/react-pluto)
 
+<a href="https://www.producthunt.com/posts/react-pluto-components?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-react-pluto-components" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=328398&theme=dark" alt="React Pluto Components - Small but beautiful React components from the planet Pluto. | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 ```cmd
 npm install react-pluto --save-dev
 ```
