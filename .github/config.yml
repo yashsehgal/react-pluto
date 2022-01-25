@@ -1,0 +1,15 @@
+
+newIssueWelcomeComment: |
+  Thanks for digging in and opening an Issue here.
+  
+  ![Investigate](https://media.giphy.com/media/5n26EW5p9lWGafPdbf/giphy.gif)
+
+newPRWelcomeComment: |
+  Thanks for going the extra mile and opening this PR! 
+  
+  ![toast](https://media.giphy.com/media/8Iv5lqKwKsZ2g/giphy.gif)
+  
+firstPRMergeComment: |
+  Congrats on merging your first pull request!
+  
+  ![congrats](https://media.giphy.com/media/3oz8xAFtqoOUUrsh7W/giphy.gif)

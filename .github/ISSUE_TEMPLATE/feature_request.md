@@ -1,7 +1,7 @@
 ---
-name: Feature request
+name: 🎉 Feature request
 about: Suggest an idea for this project
-title: ''
+title: 'Feature: <Please add your feature-request title here>'
 labels: ''
 assignees: ''
 
