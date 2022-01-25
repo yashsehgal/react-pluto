@@ -1,28 +1,30 @@
-import { Heading, Text, Box } from './lib';
+import { useState } from 'react';
+import { Heading, Text, Box, Elevation } from './lib';
 import './lib/components/scss/index.css';
 
 export default function App() {
+    const [hoverShadowRef, setHoverShadow] = useState("sm");
     return (
         <div className="app">
-            <Box className="hero-section"
-                onClick={() => console.log("working...")}
-            >
-                <Heading variant="4xl"
-                    style={{ textAlign: 'center' }}
+            <Elevation variant={hoverShadowRef}>
+                <Box className="hero-section"
+                    onClick={() => console.log("working...")}
+                    style={{
+                        width: 'fit-content',
+                        padding: '0.6rem 2rem',
+                        background: 'var(--p-primary-purple-1)'
+                    }}
+                    onMouseEnter={() => setHoverShadow("md")}
+                    onMouseLeave={() => setHoverShadow("sm")}
                 >
-                    React Pluto Components
-                </Heading>
-                <Text type="body" variant="body-lg"
-                    style={{ textAlign: 'center' }}
-                >
-                    React Pluto Components (Design System + UI Kit)
-                </Text>
-                <Text type="text" variant="text-md"
-                    style={{ textAlign: 'center' }}
-                >
-                    A package of small but beautiful React components from the planet Pluto.
-                </Text>
-            </Box>
+                    <Text type="body" variant="body-lg" style={{ color: 'var(--p-neutral-white)' }}>
+                        React Pluto Components (Design System + UI Kit)
+                    </Text>
+                    <Text type="text" variant="text-md" style={{ color: 'var(--p-neutral-white)' }}>
+                        A package of small but beautiful React components from the planet Pluto.
+                    </Text>
+                </Box>
+            </Elevation>
         </div>
     )
 }
