@@ -15,6 +15,11 @@
   cursor: pointer;
   transition: all 0.1s ease-in-out;
 }
+.p-button:focus:hover {
+  transition: all 0.2s ease-in-out;
+  outline: 2px solid var(--p-secondary-dark-1);
+  outline-offset: 3px;
+}
 
 .p-btn-primary {
   background-color: var(--p-primary-purple-1);
@@ -23,11 +28,6 @@
 .p-btn-primary:hover {
   background-color: var(--p-secondary-dark-1);
   color: var(--p-primary-purple-4);
-}
-.p-btn-primary:focus {
-  transition: all 0.2s ease-in-out;
-  outline: 2px solid var(--p-secondary-dark-1);
-  outline-offset: 2px;
 }
 
 .p-btn-small {
