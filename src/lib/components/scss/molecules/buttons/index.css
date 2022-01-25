@@ -1,0 +1,51 @@
+.p-button {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  font-family: inherit;
+  font-weight: 500;
+  margin: 0;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.p-button:focus:hover {
+  transition: all 0.2s ease-in-out;
+  outline: 2px solid var(--p-secondary-dark-1);
+  outline-offset: 3px;
+}
+
+.p-btn-primary {
+  background-color: var(--p-primary-purple-1);
+  color: var(--p-neutral-white);
+}
+.p-btn-primary:hover {
+  background-color: var(--p-secondary-dark-1);
+  color: var(--p-primary-purple-4);
+}
+
+.p-btn-small {
+  padding: 0.6rem 1.4rem;
+  font-size: 14px;
+}
+
+.p-btn-medium {
+  padding: 0.8rem 1.8rem;
+  font-size: 16px;
+}
+
+.p-btn-large {
+  padding: 1rem 2.2rem;
+  font-size: 16px;
+}
+
+.p-btn-full-width {
+  padding: 0.6rem 1.2rem;
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */
