@@ -37,6 +37,16 @@
     }
 }
 
+.p-btn-secondary {
+    background-color: transparent;
+    color: var(--p-secondary-dark-1);
+    border-color: var(--p-secondary-dark-1);
+    &:hover {
+        background-color: var(--p-secondary-dark-1);
+        color: var(--p-primary-purple-4);
+    }
+}
+
 // button-sizes
 .p-btn-small {
     padding: 0.6rem 1.4rem;

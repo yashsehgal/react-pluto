@@ -9,7 +9,7 @@ export default function App() {
                 <Box className="hero-section"
                     style={{
                         width: 'fit-content',
-                        padding: '0.6rem 1.4rem',
+                        padding: '0.6rem 1.4rem'
                     }}
                 >
                     <Text type="body" variant="body-lg">
@@ -18,14 +18,35 @@ export default function App() {
                     <Text type="text" variant="text-md">
                         A package of small but beautiful React components from the planet Pluto.
                     </Text>
-                    <Button size="fw">
-                        Check for Docs
-                    </Button>
+                    <Box
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: 'flex-start',
+                            gap: '0.8rem'
+                        }}
+                    >
+                        <Button size="fw">
+                            Check for Docs
+                        </Button>
+                        <Button size="fw" variant="secondary">
+                            Check for Docs
+                        </Button>
+                    </Box>
                 </Box>
             </Elevation>
-            <Box style={{ marginTop: '2.4rem' }}>
+            <Box style={{ 
+                marginTop: '2.4rem',
+                display: 'flex',
+                flexDirection: 'row',
+                alignItems: 'flex-start',
+                gap: '0.8rem'
+            }}>
                 <Button size="sm">
                     Button
+                </Button>
+                <Button variant="secondary" size="sm">
+                    Secondary Button
                 </Button>
             </Box>
         </div>
