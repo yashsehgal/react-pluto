@@ -1,6 +1,6 @@
 # React Pluto Component Design System + UI Kit
 
-![react-pluto-github-banner](assets/GithubBannerDark.svg)
+![Product Hunt Banner (Light)](https://user-images.githubusercontent.com/62352288/151165968-f4a1be72-32e0-46b7-8eed-f7c8853fcb5b.png)
 
 A package of small but beautiful React components from the planet Pluto. To install the latest version, run this installation command.
 
