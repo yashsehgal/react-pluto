@@ -15,10 +15,16 @@
     border-color: transparent;
     cursor: pointer;
     transition: all 0.1s ease-in-out;
-    &:focus:hover {
+    &:focus {
         transition: all 0.2s ease-in-out;
         outline: 2px solid var(--p-secondary-dark-1);
         outline-offset: 3px;
+        box-shadow: var(--p-elevation-md);
+    }
+    &:focus:hover {
+        outline: 2px solid var(--p-primary-purple-1);
+        outline-offset: 3px;
+        box-shadow: var(--p-elevation-lg);
     }
 }
 
