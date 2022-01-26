@@ -46,6 +46,7 @@ export default function ScreenView() {
 
 ```javascript
 import React, { useState } from 'react';
+import { Button } from 'react-pluto';
 
 export default function ScreenView() {
     const [currentValueRef, setCurrentValue] = useState(0);
