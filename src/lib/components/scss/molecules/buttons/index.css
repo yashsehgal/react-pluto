@@ -15,10 +15,16 @@
   cursor: pointer;
   transition: all 0.1s ease-in-out;
 }
-.p-button:focus:hover {
+.p-button:focus {
   transition: all 0.2s ease-in-out;
   outline: 2px solid var(--p-secondary-dark-1);
   outline-offset: 3px;
+  box-shadow: var(--p-elevation-md);
+}
+.p-button:focus:hover {
+  outline: 2px solid var(--p-primary-purple-1);
+  outline-offset: 3px;
+  box-shadow: var(--p-elevation-lg);
 }
 
 .p-btn-primary {
@@ -26,6 +32,16 @@
   color: var(--p-neutral-white);
 }
 .p-btn-primary:hover {
+  background-color: var(--p-secondary-dark-1);
+  color: var(--p-primary-purple-4);
+}
+
+.p-btn-secondary {
+  background-color: transparent;
+  color: var(--p-secondary-dark-1);
+  border-color: var(--p-secondary-dark-1);
+}
+.p-btn-secondary:hover {
   background-color: var(--p-secondary-dark-1);
   color: var(--p-primary-purple-4);
 }

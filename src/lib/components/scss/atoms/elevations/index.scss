@@ -16,6 +16,12 @@ $elevationAmount: (
     }
 }
 
+:root {
+    @each $elevationAmountClassName, $elevationAmountValue in $elevationAmount {
+        --p-elevation-#{$elevationAmountClassName}: #{$elevationAmountValue} rgba(0, 0, 0, 0.2);
+    }
+}
+
 .p-elevation-container {
     width: fit-content;
     height: fit-content;
