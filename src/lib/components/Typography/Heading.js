@@ -18,7 +18,7 @@ export default function Heading({
             
             default: setHeadingVariant("p-typo-heading"); break;
         }
-    });
+    }, [variant]);
 
     const headingComponentProperties = {
         "className": (className) 

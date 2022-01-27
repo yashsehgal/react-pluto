@@ -28,7 +28,7 @@ export default function Text({
 
             default: setTextType("text"); break;
         }
-    });
+    }, [variant, type]);
 
     const textComponentProperties = {
         "className": (className) 
