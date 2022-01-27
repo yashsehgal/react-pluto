@@ -18,7 +18,7 @@ export default function Button({children, className, id, style, variant, size, o
 
             default: setButtonSize("p-btn-medium"); break;
         }
-    });
+    }, [variant, size]);
 
     const buttonComponentProperties = {
         'children': children,

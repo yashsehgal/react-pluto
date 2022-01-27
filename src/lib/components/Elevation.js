@@ -15,7 +15,7 @@ export default function Elevation({children, variant, className, id, style}) {
 
             default: setElevationVariant("p-elevation-none"); break;
         }
-    });
+    }, [variant]);
     const elevationComponentProperties = {
         "children": children,
         "className": (className) ? `p-elevation-container ${elevationVariantRef} ${className}` : `p-elevation-container ${elevationVariantRef}`,

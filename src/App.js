@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { Heading, Text, Box, Elevation, Button } from './lib';
+import { Text, Box, Elevation, Button } from './lib';
 import './lib/components/scss/index.css';
 
 export default function App() {
