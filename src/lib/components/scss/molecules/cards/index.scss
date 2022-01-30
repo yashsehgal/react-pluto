@@ -1,0 +1,27 @@
+
+.p-card {
+    overflow: none;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+}
+
+// border class-methods
+.p-card-border {
+    border: 1px solid #C8C8CC;
+}
+
+.p-card-border-none {
+    border: 1px solid transparent;
+}
+
+// border-radius class-methods
+.p-card-border-radius {
+    border-radius: 12px;
+}
+
+.p-card-border-radius-none {
+    border-radius: 0;
+}

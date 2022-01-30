@@ -7,6 +7,8 @@ import Box from './components/Box';
 
 import Elevation from './components/Elevation';
 
+import Card from './components/Card';
+
 // css styles and variables
 import './components/scss/index.css';
 
@@ -16,5 +18,6 @@ export {
     Text,
     Heading,
     Box,
-    Elevation
+    Elevation,
+    Card
 }

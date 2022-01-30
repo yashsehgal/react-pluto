@@ -1,1 +1,28 @@
-/*# sourceMappingURL=index.css.map */
+.p-card {
+  overflow: none;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+}
+
+.p-card-border {
+  border: 1px solid #C8C8CC;
+}
+
+.p-card-border-none {
+  border: 1px solid transparent;
+}
+
+.p-card-border-radius {
+  border-radius: 12px;
+}
+
+.p-card-border-radius-none {
+  border-radius: 0;
+}/*# sourceMappingURL=index.css.map */

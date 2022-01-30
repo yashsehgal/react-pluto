@@ -1,52 +1,223 @@
-import { Text, Box, Elevation, Button } from './lib';
+import { Text, Box, Elevation, Button, Card, Heading } from './lib';
 import './lib/components/scss/index.css';
 
 export default function App() {
     return (
         <div className="app">
-            <Elevation variant="sm">
-                <Box className="hero-section"
-                    style={{
-                        width: 'fit-content',
-                        padding: '0.6rem 1.4rem'
-                    }}
+            <Box
+                style={{
+                    display: 'grid',
+                    gridTemplateColumns: 'auto auto auto',
+                    alignItems: 'center',
+                    justifyContent: 'space-evenly',
+                    rowGap: '2.4rem',
+                    gap: '3.6rem',
+                    width: 'fit-content',
+                    marginRight: 'auto',
+                    marginLeft: 'auto'
+                }}
+            >
+                <Card
+                    hasBorderRadius={true}
+                    hasBorders={true}
                 >
-                    <Text type="body" variant="body-lg">
-                        React Pluto Components (Design System + UI Kit)
-                    </Text>
-                    <Text type="text" variant="text-md">
-                        A package of small but beautiful React components from the planet Pluto.
+                    <Heading>Senior Software Engineer (Frontend)</Heading>
+                    <Text>
+                        We're looking for full-time SDEs for the frontend <br />
+                        part of our application.
                     </Text>
                     <Box
                         style={{
                             display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'flex-start',
-                            gap: '0.8rem'
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            gap: '0.4rem'
                         }}
                     >
                         <Button size="fw">
-                            Check for Docs
+                            Apply Now
                         </Button>
                         <Button size="fw" variant="secondary">
-                            Check for Docs
+                            Check Company
                         </Button>
                     </Box>
-                </Box>
-            </Elevation>
-            <Box style={{ 
-                marginTop: '2.4rem',
-                display: 'flex',
-                flexDirection: 'row',
-                alignItems: 'flex-start',
-                gap: '0.8rem'
-            }}>
-                <Button size="sm">
-                    Button
-                </Button>
-                <Button variant="secondary" size="sm">
-                    Secondary Button
-                </Button>
+                </Card><Card
+                    hasBorderRadius={true}
+                    hasBorders={true}
+                >
+                    <Heading>Senior Software Engineer (Frontend)</Heading>
+                    <Text>
+                        We're looking for full-time SDEs for the frontend <br />
+                        part of our application.
+                    </Text>
+                    <Box
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            gap: '0.4rem'
+                        }}
+                    >
+                        <Button size="fw">
+                            Apply Now
+                        </Button>
+                        <Button size="fw" variant="secondary">
+                            Check Company
+                        </Button>
+                    </Box>
+                </Card><Card
+                    hasBorderRadius={true}
+                    hasBorders={true}
+                >
+                    <Heading>Senior Software Engineer (Frontend)</Heading>
+                    <Text>
+                        We're looking for full-time SDEs for the frontend <br />
+                        part of our application.
+                    </Text>
+                    <Box
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            gap: '0.4rem'
+                        }}
+                    >
+                        <Button size="fw">
+                            Apply Now
+                        </Button>
+                        <Button size="fw" variant="secondary">
+                            Check Company
+                        </Button>
+                    </Box>
+                </Card><Card
+                    hasBorderRadius={true}
+                    hasBorders={true}
+                >
+                    <Heading>Senior Software Engineer (Frontend)</Heading>
+                    <Text>
+                        We're looking for full-time SDEs for the frontend <br />
+                        part of our application.
+                    </Text>
+                    <Box
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            gap: '0.4rem'
+                        }}
+                    >
+                        <Button size="fw">
+                            Apply Now
+                        </Button>
+                        <Button size="fw" variant="secondary">
+                            Check Company
+                        </Button>
+                    </Box>
+                </Card><Card
+                    hasBorderRadius={true}
+                    hasBorders={true}
+                >
+                    <Heading>Senior Software Engineer (Frontend)</Heading>
+                    <Text>
+                        We're looking for full-time SDEs for the frontend <br />
+                        part of our application.
+                    </Text>
+                    <Box
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            gap: '0.4rem'
+                        }}
+                    >
+                        <Button size="fw">
+                            Apply Now
+                        </Button>
+                        <Button size="fw" variant="secondary">
+                            Check Company
+                        </Button>
+                    </Box>
+                </Card><Card
+                    hasBorderRadius={true}
+                    hasBorders={true}
+                >
+                    <Heading>Senior Software Engineer (Frontend)</Heading>
+                    <Text>
+                        We're looking for full-time SDEs for the frontend <br />
+                        part of our application.
+                    </Text>
+                    <Box
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            gap: '0.4rem'
+                        }}
+                    >
+                        <Button size="fw">
+                            Apply Now
+                        </Button>
+                        <Button size="fw" variant="secondary">
+                            Check Company
+                        </Button>
+                    </Box>
+                </Card><Card
+                    hasBorderRadius={true}
+                    hasBorders={true}
+                >
+                    <Heading>Senior Software Engineer (Frontend)</Heading>
+                    <Text>
+                        We're looking for full-time SDEs for the frontend <br />
+                        part of our application.
+                    </Text>
+                    <Box
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            gap: '0.4rem'
+                        }}
+                    >
+                        <Button size="fw">
+                            Apply Now
+                        </Button>
+                        <Button size="fw" variant="secondary">
+                            Check Company
+                        </Button>
+                    </Box>
+                </Card><Card
+                    hasBorderRadius={true}
+                    hasBorders={true}
+                >
+                    <Heading>Senior Software Engineer (Frontend)</Heading>
+                    <Text>
+                        We're looking for full-time SDEs for the frontend <br />
+                        part of our application.
+                    </Text>
+                    <Box
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            gap: '0.4rem'
+                        }}
+                    >
+                        <Button size="fw">
+                            Apply Now
+                        </Button>
+                        <Button size="fw" variant="secondary">
+                            Check Company
+                        </Button>
+                    </Box>
+                </Card>
             </Box>
         </div>
     )

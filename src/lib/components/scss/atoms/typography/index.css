@@ -6,14 +6,17 @@
 
 .heading {
   font-weight: 700;
+  padding: 2px 0px;
 }
 
 .body {
   font-weight: 800;
+  padding: 2px 0px;
 }
 
 .text {
   font-weight: 500;
+  padding: 2px 0px;
 }
 
 :root {
@@ -32,44 +35,55 @@
 
 .p-typo-heading-4xl {
   font-size: 64px;
+  padding: 2px 0px;
 }
 
 .p-typo-heading-3xl {
   font-size: 56px;
+  padding: 2px 0px;
 }
 
 .p-typo-heading-2xl {
   font-size: 40px;
+  padding: 2px 0px;
 }
 
 .p-typo-heading-xl {
   font-size: 24px;
+  padding: 2px 0px;
 }
 
 .p-typo-heading {
   font-size: 20px;
+  padding: 2px 0px;
 }
 
 .p-typo-body-lg {
   font-size: 20px;
+  padding: 2px 0px;
 }
 
 .p-typo-body-md {
   font-size: 16px;
+  padding: 2px 0px;
 }
 
 .p-typo-body-sm {
   font-size: 12px;
+  padding: 2px 0px;
 }
 
 .p-typo-text-lg {
   font-size: 16px;
+  padding: 2px 0px;
 }
 
 .p-typo-text-md {
   font-size: 14px;
+  padding: 2px 0px;
 }
 
 .p-typo-text-sm {
   font-size: 12px;
+  padding: 2px 0px;
 }/*# sourceMappingURL=index.css.map */

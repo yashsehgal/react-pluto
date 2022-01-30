@@ -8,24 +8,21 @@ export default function Card({
     onMouseEnter, 
     onMouseLeave, 
     hasBorders,
-    hasShadow,
     hasBorderRadius,
     style,
 }) {
     const [cardBorderRef, setCardBorder] = useState("p-card-border");
     const [cardBorderRadiusRef, setCardBorderRadius] = useState("p-card-border-radius");
-    const [cardShadowRef, setCardShadow] = useState("p-card-shadow");
 
     useEffect(() => {
         (hasBorders) ? setCardBorder("p-card-border") : setCardBorder("p-card-border-none");
         (hasBorderRadius) ? setCardBorderRadius("p-card-border-radius") : setCardBorderRadius("p-card-border-radius-none");
-        (hasShadow) ? setCardShadow("p-card-shadow") : setCardShadow("p-card-shadow-none");
-    }, [hasBorderRadius, hasShadow, hasBorders]);
+    }, [hasBorderRadius, hasBorders]);
 
     const cardComponentProperties = {
         "className": (className) 
-            ? `p-card ${cardBorderRef} ${cardBorderRadiusRef} ${cardShadowRef} ${className}` 
-            : `p-card ${cardBorderRef} ${cardBorderRadiusRef} ${cardShadowRef}`,
+            ? `p-card ${cardBorderRef} ${cardBorderRadiusRef} ${className}` 
+            : `p-card ${cardBorderRef} ${cardBorderRadiusRef}`,
         "id": (id) ? id : '',
         "style": style,
         "onClick": onClick,
